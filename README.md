@@ -14,12 +14,6 @@ The system consists of several clients (peers) and a central server. A peer can 
 | Chunk Register Request: Tells the server when a peer receives a new chunk of the file and becomes a source (of that chunk) for other peers.  | Chunk Register Reply: Advises if the chunk registration was a success.|
 | File Chunk Request: Asks the peer to return the file chunk. Reads in a file name, chunk indicator.  | File Chunk Reply: A stream of bytes representing the requested chunk. |
 
-## Download and Compile
-``` 
-git clone https://github.com/bchu7796/P2P_File_Sharing.git
-cd P2P_File_Sharing.git
-make
-```
 
 ## Execution
 Server:
